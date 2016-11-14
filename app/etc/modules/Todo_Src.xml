@@ -1,0 +1,10 @@
+<?xml version="1.0"  ?>
+
+<config>
+<modules>
+    <TodoApp_Src>
+        <codePool>local</codePool>
+        <active>true</active>
+    </TodoApp_Src>
+</modules>
+</config>

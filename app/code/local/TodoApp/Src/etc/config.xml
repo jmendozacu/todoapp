@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config>
+    <global>
+    </global>
+
+    <frontend>
+        <routers>
+            <todoapp>
+                <use>standard</use>
+                <args>
+                    <module>TodoApp_Src</module>
+                    <frontName>todoapp</frontName>
+                </args>
+            </todoapp>
+        </routers>
+    </frontend>
+</config>
