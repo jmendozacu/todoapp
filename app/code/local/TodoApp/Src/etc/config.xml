@@ -5,13 +5,20 @@
 
     <frontend>
         <routers>
-            <todoapp>
+            <src>
                 <use>standard</use>
                 <args>
                     <module>TodoApp_Src</module>
                     <frontName>todoapp</frontName>
                 </args>
-            </todoapp>
+            </src>
         </routers>
+        <layout>
+            <updates>
+            <src>
+                <file>todoapp.xml</file>
+            </src>
+            </updates>
+        </layout>
     </frontend>
 </config>

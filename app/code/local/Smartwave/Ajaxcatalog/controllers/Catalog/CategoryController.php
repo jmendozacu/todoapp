@@ -1,6 +1,6 @@
 <?php
 /**
- * Category controller
+ * Category controllers
  *
  * @category   Mage
  * @package    Mage_Catalog

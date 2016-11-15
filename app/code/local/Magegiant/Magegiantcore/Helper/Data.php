@@ -19,7 +19,7 @@ class Magegiant_Magegiantcore_Helper_Data extends Mage_Core_Helper_Abstract
     public function checkLicenseKeyAdminController($controller) {return true;}
     public function checkLicenseKey($extensionName) {return true;}
 	
-	// used for checking license in front-end controller
+	// used for checking license in front-end controllers
 	public function checkTrialKeyFrontController($controller)
 	{
 		$extensionName = get_class($controller);
@@ -33,7 +33,7 @@ class Magegiant_Magegiantcore_Helper_Data extends Mage_Core_Helper_Abstract
 		}
 	}
 	
-	// used for checking license in back-end controller
+	// used for checking license in back-end controllers
 	public function checkTrialKeyAdminController($controller)
 	{	
 		$extensionName = get_class($controller);

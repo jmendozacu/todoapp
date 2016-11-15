@@ -4,7 +4,7 @@ class Smartwave_Blog_Helper_Cat extends Mage_Core_Helper_Abstract
 {
     /**
      * Renders CMS page
-     * Call from controller action
+     * Call from controllers action
      *
      * @param Mage_Core_Controller_Front_Action $action
      * @param integer                           $identifier

@@ -170,7 +170,7 @@ class Smartwave_Ajaxcart_IndexController extends Mage_Checkout_CartController
             // Apply custom layout (page) template once the blocks are generated
             /*
             if ($settings->getPageLayout()) {
-                $controller->getLayout()->helper('page/layout')->applyTemplate($settings->getPageLayout());
+                $controllers->getLayout()->helper('page/layout')->applyTemplate($settings->getPageLayout());
             }
             */
 
